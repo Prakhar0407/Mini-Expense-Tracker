@@ -17,7 +17,7 @@ mongoose
 
 //! Cors config
 const corsOptions = {
-  origin: ["https://mini-expense-tracker-pov.netlify.app"],
+  origin: ["http://localhost:5173"],
 };
 app.use(cors(corsOptions));
 
