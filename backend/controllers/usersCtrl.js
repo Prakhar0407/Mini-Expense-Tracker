@@ -50,7 +50,7 @@ const usersController = {
       throw new Error("Invalid login credentials");
     }
     //! Generate a token
-    const token = jwt.sign({ id: user._id }, "masynctechKey", {
+    const token = jwt.sign({ id: user._id }, "Key", {
       expiresIn: "7d",
     });
     //!Send the response

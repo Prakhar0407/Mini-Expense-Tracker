@@ -28,10 +28,6 @@ export default function PublicNavbar() {
                     )}
                   </Disclosure.Button>
                 </div>
-                <div className="flex flex-shrink-0 items-center">
-                  {/* Logo */}
-                  <SiAuthy className="h-8 w-auto text-green-500" />
-                </div>
                 <div className="hidden md:ml-6 md:flex md:space-x-8">
                   
                 </div>
